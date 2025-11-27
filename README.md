@@ -426,12 +426,12 @@ id device_id timestamp                  temperature humidity pressure voltage re
 ```
 iot_data_collection/           
 ├── device_firmware/          
-│   └── sensor_emulator.py
-├── data_server/              
-│   ├── data_receiver.py
-│   └── database_viewer.py
-├── cloud_sync/               
-├── documentation/            
+│   └── sensor_emulator.py # Эмулятор работы микроконтроллера
+├── data_server/  # Серверная часть            
+│   ├── data_receiver.py # Основной сервер приема данных
+│   └── database_viewer.py # Инструмент мониторинга
+├── cloud_sync/  # Облачная синхронизация            
+├── documentation/ # Документация           
 └── requirements.txt
 ```
 
